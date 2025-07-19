@@ -21,7 +21,7 @@ This project implements a biologically-inspired neural simulation that demonstra
 
 ```bash
 git clone https://github.com/madara88645/stdp_neural.git
-cd stdp-neural-simulation
+cd stdp_neural
 pip install -r requirements.txt
 ```
 
@@ -57,7 +57,7 @@ python quick_test.py
 ## Project Structure
 
 ```
-stdp-neural-simulation/
+stdp_neural/
 ├── stdp_simulation/          # Main package
 │   ├── core/                 # Core simulation components
 │   │   ├── neuron.py        # Neuron models
