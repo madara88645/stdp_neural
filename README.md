@@ -20,7 +20,7 @@ This project implements a biologically-inspired neural simulation that demonstra
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/stdp-neural-simulation.git
+git clone https://github.com/madara88645/stdp_neural.git
 cd stdp-neural-simulation
 pip install -r requirements.txt
 ```
@@ -108,9 +108,9 @@ If you use this simulation in your research, please cite:
 ```bibtex
 @software{stdp_simulation,
   title={STDP Neural Plasticity Simulation},
-  author={Your Name},
+  author={Mehmet Ozel},
   year={2025},
-  url={https://github.com/yourusername/stdp-neural-simulation}
+  url={https://github.com/madara88645/stdp_neural/}
 }
 ```
 
