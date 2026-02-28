@@ -269,6 +269,14 @@ class TestSTDPSimulator(unittest.TestCase):
         self.assertEqual(len(results['time']), expected_length)
         self.assertEqual(len(results['pre_spikes']), expected_length)
         self.assertEqual(len(results['post_spikes']), expected_length)
+
+    def test_run_simulation_verbose_short_duration(self):
+        """Test verbose simulation with short duration does not error."""
+        duration = 5.0
+        results = self.simulator.run(duration, verbose=True)
+
+        expected_length = int(duration / self.simulator.dt)
+        self.assertEqual(len(results['time']), expected_length)
     
     def test_reset_functionality(self):
         """Test simulator reset."""
