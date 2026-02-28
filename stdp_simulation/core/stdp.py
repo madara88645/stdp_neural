@@ -310,10 +310,12 @@ class STDPSimulator:
         if verbose:
             print(f"Running STDP simulation for {duration} ms ({n_steps} steps)")
             
+        progress_interval = max(1, n_steps // 10)
+
         for step in range(n_steps):
             step_result = self.step()
             
-            if verbose and step % (n_steps // 10) == 0:
+            if verbose and step % progress_interval == 0:
                 progress = 100 * step / n_steps
                 print(f"Progress: {progress:.1f}% - Weight: {step_result['weight']:.3f}")
         
