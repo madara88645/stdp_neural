@@ -2,6 +2,8 @@
 
 A comprehensive Python library for simulating Spike-Timing-Dependent Plasticity (STDP) in neural networks.
 
+![STDP simulation output — spike activity and synaptic weight evolution](quick_test_results.png)
+
 ## Overview
 
 This project implements a biologically-inspired neural simulation that demonstrates how synaptic connections strengthen or weaken based on the timing of pre- and post-synaptic spikes. STDP is a fundamental mechanism of synaptic plasticity that underlies learning and memory in biological neural networks.
